@@ -48,6 +48,54 @@ export const GlobalStyles = createGlobalStyle`
             letter-spacing: -0.05em;
         }
     }
+    h2 {
+        font-weight: 800;
+        color: var(--ebony);
+
+        @media screen and (max-width: 47.9375rem) {
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+        }
+
+        @media screen and (min-width: 40rem) and (max-width: 47.9375rem) {
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+        }
+
+        @media screen and (min-width: 48rem) and (max-width: 63.9375rem) {
+            font-size: 3rem;
+            line-height: 1;
+        }
+
+        @media screen and (min-width: 64rem) {
+            font-size: 3rem;
+            line-height: 1;
+            letter-spacing: -0.025em;
+        }
+    }
+    h3 {
+        font-weight: 700;
+        color: var(--ebony);
+
+        @media screen and (max-width: 47.9375rem) {
+            font-size: 1.875rem;
+            line-height: 2.25rem;
+        }
+
+        @media screen and (min-width: 40rem) and (max-width: 47.9375rem) {
+            font-size: 1.875rem;
+            line-height: 2.25rem;
+        }
+
+        @media screen and (min-width: 48rem) and (max-width: 63.9375rem) {
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+        }
+        @media screen and (min-width: 64rem) {
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+        }
+    }
     p {
         font-size: 1rem;
         line-height: 1.5rem;
